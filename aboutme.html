@@ -6,22 +6,31 @@
 
     <body>
         <header>
+            <p id="top">Table of Contents</p>
+            <ul>
+                <li><a href="#top">Who is Tim Quinlan?</a></li>
+                <li><a href="#now">Where is Tim Quinlan now?</a></li>
+                <li><a href="#next">Where will Tim Quinlan be next?</a></li>
+                <li><a href="#stays">What if Tim Quinlan stays in Chicago?</a></li>
+                <li><a href="#death">What happens when Tim Quinlan dies?</a></li>
+            </ul>
             <h1>Who is Tim Quinlan?</h1>
-            <p>Tim Quinlan was born in Winter Haven, FL and spent his childhood growing up in both 
+            <p class="aboutme">Tim Quinlan was born in Winter Haven, FL and spent his childhood growing up in both 
                 Miami, FL and Indianapolis, IN.  Until COVID-19 put an abrupt end to his career, he was 
                 a professional DJ that worked gigs all across the Midwestern United States under the name 
                 <a href="http://windytimmy.com">WindyTimmy</a>.  He's currently working in the real estate industry 
                 and studying coding and web development at Northeastern Illinois University in Chicago.</p>
+            <img src="https://images.app.goo.gl/BpYpS2eRZwY4gwNo8" alt="Tim Quinlan">
         </header>
         <article>
             <section>
-                <h2>Where is Tim Quinlan now?</h2>
+                <h2 id="now">Where is Tim Quinlan now?</h2>
                 <p>Tim Quinlan now resides in Chicago, IL, but still visits Miami and Indianapolis 
                     regularly.</p>
             </section>
             <section>
-                <h2>Where will Tim Quinlan be heading next?</h2>
-                <p>Upon completion of his coding and web development bootcamp, Tim Quinlan has 
+                <h2 id="next">Where will Tim Quinlan be heading next?</h2>
+                <p class="aboutme">Upon completion of his coding and web development bootcamp, Tim Quinlan has 
                     quite a few options to consider regarding his next move.  His favorite options
                     can be found in bold.</p>
                     <ul>
@@ -31,8 +40,18 @@
                         <li>Seattle, Washington</li>
                         <li><strong>Amsterdam, Netherlands</strong></li>
                     </ul>
+                    <p>Which city would you choose?</p>
+                    <select>
+                        <option value"Miami">Miami</option>
+                        <option value"Banbury">Banbury</option>
+                        <option value"SanDiego">San Diego</option>
+                        <option value"Seattle">Seattle</option>
+                        <option value"Amsterdam">Amsterdam</option>
+                    </select>
+                    <input type="submit" placeholder="submit"/>
+                </section>    
                 <section>
-                    <h3><em>Tim Quinlan may end up staying Chicago upon completion of his bootcamp.  Should 
+                    <h3 id="stays"><em>Tim Quinlan may end up staying Chicago upon completion of his bootcamp.  Should 
                         he stay put, there are some goals he'd like to see to completion.</em></h3>
                     <ol>
                         <li>Buying a single family home.</li>
@@ -42,15 +61,17 @@
                         <li>Legally change his name to Mr. Moneybags.</li>
                         <li>Purchase a monacle.</li>
                     </ol>
+                    <input type="text" placeholder="What's a personal goal of yours?"/>
+                    <input type="submit" placeholder="submit"/>
                 </section>
-            </section>
-            <section>
-                <h2>What will happen when Tim Quinlan is no longer with us?</h2>
-                <p>When Tim Quinlan passes he will be cremated and his ashes will reside inside
+                <section>
+                <h2 id="death">What will happen when Tim Quinlan is no longer with us?</h2>
+                <p class="aboutme">When Tim Quinlan passes he will be cremated and his ashes will reside inside
                     the United Center alongside the six NBA Championship trophies won by the 1990's 
                     Chicago Bulls.
                 </p>
-            </section>
+                <a href="#top">Back to top.</a>
+                </section>
         </article>
     </body>
 </html>
